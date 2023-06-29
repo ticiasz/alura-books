@@ -34,6 +34,7 @@
 
 .lista-menu__titulo{
     color: var(--laranja);
+    font-weight: 700;
 }
 
 .lista-menu__link{
@@ -46,6 +47,10 @@
 
 .container__botao:checked~.lista-menu{
     display: block;
+}
+
+.container__botao{
+    display: none;
 }
 
 .container__imagem{
