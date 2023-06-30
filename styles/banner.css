@@ -14,3 +14,22 @@
     font-weight: 500;
     margin: 1rem 0;
 }
+
+.banner__pesquisa{
+    background-color: transparent;
+    color: var(--branco);
+    border: 1.5px solid var(--branco);
+    border-radius: 25px;
+    padding: 1rem;
+    width: 100%;
+}
+
+.banner__pesquisa::placeholder{
+    font-family: var(--fonte-principal);
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: center;
+    color: var(--branco);
+    background: url("../assets/Vector.svg") no-repeat;
+    background-position: 1rem;
+}
