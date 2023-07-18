@@ -24,3 +24,17 @@
     position: initial;
     margin: 0.5rem 0;
 }
+
+.card__descricao{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__botoes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes{
+    display: flex;
+}
