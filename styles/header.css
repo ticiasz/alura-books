@@ -56,3 +56,54 @@
 .container__imagem{
     padding: 0.5rem;
 }
+
+.container__titulo, .opcoes{
+    display: none;
+}
+
+@media screen and (min-width: 1024px){
+    
+    .cabeçalho{
+        padding: 0 2rem;
+    }
+
+    .cabeçalho__menu-hamburguer{
+        display: none;
+    }
+
+    .container__titulo, .container__titulo-negrito{
+        font-family: var(--fonte-secundaria);
+        font-size: 1.8rem;
+    }
+
+    .container__titulo{
+        display: block; /*temos que colocar pois fora do media ele foi definido como none, então só aparecerá com outro display sobrescrevendo*/
+        padding-top: 1rem;
+    }
+
+    .container__titulo-negrito{
+        font-weight: 700;
+    }
+
+    .opcoes{
+        display: flex;
+    }
+
+    .opcoes__item{
+        padding: 0 1rem;
+        text-transform: uppercase;
+    }
+
+    .opcoes__link{
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .container__imagem-transparente{
+        display: none;
+    }
+
+    .container__imagem-espacada{
+        padding-right: 3rem;
+    }
+}
