@@ -36,6 +36,10 @@
     margin-bottom: 0.5rem;
 }
 
+.descricao{
+    padding: 0.5rem;
+}
+
 .descricao__titulo{
     color: var(--laranja);
     font-weight: 700;
