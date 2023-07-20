@@ -99,6 +99,18 @@
         color: var(--preto);
     }
 
+    .lista-menu{
+        width: 20vw;
+    }
+
+    .opcoes__botao:checked ~ .lista-menu{
+        display: block;
+    }
+
+    .opcoes__botao{
+        display: none;
+    }
+
     .container__imagem-transparente{
         display: none;
     }
