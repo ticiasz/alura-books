@@ -35,6 +35,7 @@
     
     .tópicos{
         padding: 1rem;
+        border-top: none;
     }
 
     .tópicos__titulo{
@@ -49,5 +50,16 @@
     .tópicos__link{
         padding: 1.5rem;
         font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1728px){
+
+    .tópicos__titulo{
+        font-size: 2rem;
+    }
+
+    .tópicos{
+        padding: 3rem 25rem;
     }
 }
