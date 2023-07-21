@@ -56,10 +56,6 @@
     font-size: 0.9rem;
 }
 
-/* .descricao__imagem{
-    width: 70%;
-} */
-
 .card__botoes{
     display: flex;
     justify-content: space-between;
@@ -113,5 +109,30 @@
 
     .card__descricao{
         gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 1728px){
+    
+    .carrossel__titulo{
+        font-size: 2rem;
+    }
+
+    .carrossel__container{
+        display: flex;
+        align-items: center;
+        padding: 4rem 10rem;
+    }
+
+    .descricao__titulo{
+        font-size: 2rem;
+    }
+
+    .descricao__titulo-destaque{
+        padding: 0.8rem 0;
+    }
+
+    .descricao__texto{
+        font-size: 1rem;
     }
 }
