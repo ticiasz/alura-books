@@ -20,6 +20,15 @@
     display: inline-block;
 }
 
+.container__botao:checked~.container__rotulo>.cabeçalho__menu-hamburguer{
+    /* procuramos um "cabeçalho menu hamburguer" dentro (>) de um "container rotulo" que está em seguida (~) de um container botao*/
+    background-image: url("../assets/Menu\ Aberto.svg");
+}
+
+.container__botao:checked~.container__rotulo{
+    background: var(--azul-degrade);
+}
+
 .lista-menu{
     display: none;
     position: absolute;
